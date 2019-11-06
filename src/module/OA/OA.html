@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>OA</title>
+    <script src="../static/js/encryption/getUrl.js" type="text/javascript " charset="utf-8"></script>
+    <script>
+        if (isAndroid()) {
+            var script = document.createElement("script");
+            script.setAttribute("src", "../static/js/WebViewJavascriptBridge.js");
+            var head = document.head || document.getElementsByTagName('head')[0];
+            head.appendChild(script)
+        }
+    </script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/vant/lib/vant-css/index.css"> -->
+    <link rel="stylesheet" href="../static/css/flexible.css">
+    <!--  <style>
+        .cube-dialog .cube-popup-container .cube-dialog-main .cube-dialog-confirm {
+            width: 280px;
+            height: 115px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+    <!-- built files will be auto injected -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/vant/lib/vant.min.js"></script> -->
+    <!-- <script src="../static/js/WebViewJavascriptBridge.js"></script> -->
+    <script src="../static/js/encryption/zaes.js" type="text/javascript " charset="utf-8"></script>
+    <script src="../static/js/encryption/mode-ecb.js " type="text/javascript " charset="utf-8"></script>
+    <script src="../static/js/encryption/commonEncrypDecryp.js " type="text/javascript " charset="utf-8"></script>
+    <script src="../static/js/encryption/jsonData.js " type="text/javascript " charset="utf-8"></script>
+
+</body>
+
+
+
+</html>

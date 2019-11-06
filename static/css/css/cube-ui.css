@@ -1,0 +1,33 @@
+.cube-tab-bar .cube-tab {
+  font-size: 15px;
+  color: #666666;
+  margin-right: 38px;
+}
+
+.cube-tab-bar .cube-tab.cube-tab_active {
+  color: #019DDD;
+}
+
+.cube-tab-bar .cube-tab:nth-child(3) {
+  margin-right: 0;
+}
+
+.cube-tab-bar .cube-tab-bar-slider {
+  height: 2px;
+  background-color: #019DDD;
+}
+
+.banner {
+  width: 100%;
+  height: 145px;
+  overflow: hidden;
+}
+
+.banner .cube-slide-group > .cube-slide-item > a {
+  display: block;
+  width: 100%;
+}
+
+.banner .cube-slide-group > .cube-slide-item > a > img {
+  width: 100%;
+}
