@@ -31,7 +31,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "autosize": "^4.0.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cube-ui": "^1.10.12",
     "fastclick": "^1.0.6",
     "jsbridge": "^1.0.10",
